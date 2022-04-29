@@ -2,28 +2,28 @@
   "allowed_protocols":[
   {
   "protocol":"A_MUTE",
-  "from":4,
-  "to":2
+  "from":"4",
+  "to":"2"
   },
   {
   "protocol":"A_UNMUTE",
-  "from":7,
-  "to":2
+  "from":"7",
+  "to":"2"
   },
   {
   "protocol":"V_MUTE",
-  "from":4,
-  "to":5
+  "from":"4",
+  "to":"5"
   },
   {
   "protocol":"V_UNMUTE",
-  "from":4,
-  "to":6
+  "from":"4",
+  "to":"6"
   },
   {
   "protocol":"REQUEST_MUTE",
-  "from":4,
-  "to":9
+  "from":"4",
+  "to":"9"
   }
   ]
 }
