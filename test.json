@@ -1,0 +1,29 @@
+{
+  allowed_protocols:[
+  {
+  protocol:"A_MUTE",
+  from:"PRESENTER",
+  to:"PARTICIPANT"
+  },
+  {
+  protocol:"A_UNMUTE",
+  from:"PARTICIPANT",
+  to:"COHOST_PRESENTER"
+  },
+  {
+  protocol:"V_MUTE",
+  from:"PRESENTER",
+  to:"COHOST_PARTICIPANT"
+  },
+  {
+  protocol:"V_UNMUTE",
+  from:"PRESENTER",
+  to:"PRESENTER_PARTICIPANT"
+  },
+  {
+  protocol:"REQUEST_MUTE",
+  from:"PRESENTER",
+  to:"ALL"
+  }
+  ]
+}
